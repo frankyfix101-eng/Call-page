@@ -8,21 +8,24 @@
       font-family: sans-serif; 
       text-align: center; 
       padding-top: 50px; 
-      background-color: #f9f9f9; /* светлый фон */
-      color: #000; /* цвет текста */
+      background-color: #f9f9f9;
+      color: #000;
       height: 100vh;
     }
     h2 {
-      font-size: 32px; /* размер заголовка */
-      margin-bottom: 40px;
+      font-size: 36px; /* увеличили заголовок */
+      margin-bottom: 50px;
     }
     button { 
-      font-size: 28px; /* размер текста кнопки */
-      padding: 25px 50px; /* размер кнопки */
-      margin: 20px; 
+      display: block; /* каждая кнопка на новой строке */
+      width: 80%; /* ширина кнопки */
+      max-width: 400px; /* максимальная ширина */
+      font-size: 32px; /* увеличенный текст */
+      padding: 30px 0; /* больше высота кнопки */
+      margin: 20px auto; /* отступ сверху/снизу, центрирование */
       cursor: pointer; 
       border: none;
-      border-radius: 12px;
+      border-radius: 16px;
       background-color: #4CAF50;
       color: white;
       transition: background-color 0.3s;
