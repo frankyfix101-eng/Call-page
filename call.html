@@ -4,18 +4,38 @@
   <meta charset="UTF-8">
   <title>Выберите номер</title>
   <style>
-    body { font-family: sans-serif; text-align:center; padding-top:50px; }
+    body { 
+      font-family: sans-serif; 
+      text-align: center; 
+      padding-top: 50px; 
+      background-color: #f9f9f9; /* светлый фон */
+      color: #000; /* цвет текста */
+      height: 100vh;
+    }
+    h2 {
+      font-size: 32px; /* размер заголовка */
+      margin-bottom: 40px;
+    }
     button { 
-      font-size: 20px; 
-      padding: 15px 30px; 
-      margin: 10px; 
+      font-size: 28px; /* размер текста кнопки */
+      padding: 25px 50px; /* размер кнопки */
+      margin: 20px; 
       cursor: pointer; 
+      border: none;
+      border-radius: 12px;
+      background-color: #4CAF50;
+      color: white;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #45a049;
     }
   </style>
 </head>
 <body>
   <h2>Выберите номер для звонка:</h2>
-  <button onclick="window.location.href='tel:+79039477225'">Номер 1</button>
-  <button onclick="window.location.href='tel:+73852252225'">Номер 2</button>
+  <button onclick="window.location.href='tel:+79039477225'">+7(903)947-72-25</button>
+  <button onclick="window.location.href='tel:+73852252225'">+7(3852)25-22-25</button>
 </body>
 </html>
+
