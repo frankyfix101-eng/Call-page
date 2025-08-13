@@ -2,16 +2,20 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Звонок</title>
-  <script>
-    window.onload = function() {
-      // Замените на ваш номер
-      window.location.href = "tel:+79039477225";
+  <title>Выберите номер</title>
+  <style>
+    body { font-family: sans-serif; text-align:center; padding-top:50px; }
+    button { 
+      font-size: 20px; 
+      padding: 15px 30px; 
+      margin: 10px; 
+      cursor: pointer; 
     }
-  </script>
+  </style>
 </head>
-<body style="font-family: sans-serif; text-align:center; padding-top:50px;">
-  <h2>Соединяем с администратором...</h2>
+<body>
+  <h2>Выберите номер для звонка:</h2>
+  <button onclick="window.location.href='tel:+79039477225'">Номер 1</button>
+  <button onclick="window.location.href='tel:+73852252225'">Номер 2</button>
 </body>
 </html>
-
